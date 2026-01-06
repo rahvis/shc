@@ -251,7 +251,7 @@ See `shc/requirements.txt` for full dependencies.
          Stable and Efficient Deep Residual Learning},
   author={...},
   journal={...},
-  year={2024}
+  year={2026}
 }
 ```
 
