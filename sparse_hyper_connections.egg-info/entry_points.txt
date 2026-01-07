@@ -1,0 +1,3 @@
+[console_scripts]
+shc-eval = shc.scripts.evaluate:main
+shc-train = shc.scripts.train:main

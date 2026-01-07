@@ -1,3 +1,57 @@
+Metadata-Version: 2.4
+Name: sparse-hyper-connections
+Version: 0.1.1
+Summary: Sparse Selective Hyper-Connections for stable and efficient deep residual learning
+Author: SHC Research Team
+Maintainer: SHC Research Team
+License: MIT
+Project-URL: Homepage, https://github.com/your-org/shc
+Project-URL: Documentation, https://shc.readthedocs.io
+Project-URL: Repository, https://github.com/your-org/shc
+Project-URL: Changelog, https://github.com/your-org/shc/blob/main/CHANGELOG.md
+Project-URL: Bug Tracker, https://github.com/your-org/shc/issues
+Keywords: deep-learning,transformers,language-models,orthogonal-matrices,residual-connections,pytorch,machine-learning,neural-networks
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.0.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: tqdm>=4.65.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: pytest-benchmark>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: pre-commit>=3.0.0; extra == "dev"
+Provides-Extra: training
+Requires-Dist: tensorboard>=2.12.0; extra == "training"
+Requires-Dist: deepspeed>=0.9.0; extra == "training"
+Requires-Dist: hydra-core>=1.3.0; extra == "training"
+Requires-Dist: wandb>=0.15.0; extra == "training"
+Provides-Extra: docs
+Requires-Dist: sphinx>=7.0.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=1.3.0; extra == "docs"
+Requires-Dist: myst-parser>=2.0.0; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints>=1.24.0; extra == "docs"
+Provides-Extra: all
+Requires-Dist: sparse-hyper-connections[dev,docs,training]; extra == "all"
+Dynamic: license-file
+
 # SHC: Sparse Selective Hyper-Connections
 
 [![PyPI version](https://badge.fury.io/py/sparse-hyper-connections.svg)](https://badge.fury.io/py/sparse-hyper-connections)
