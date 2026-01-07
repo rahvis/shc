@@ -4,8 +4,8 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0+-orange.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Tests](https://github.com/your-org/shc/actions/workflows/tests.yml/badge.svg)](https://github.com/your-org/shc/actions/workflows/tests.yml)
-[![codecov](https://codecov.io/gh/your-org/shc/branch/main/graph/badge.svg)](https://codecov.io/gh/your-org/shc)
+[![Tests](https://github.com/rahvis/shc/actions/workflows/tests.yml/badge.svg)](https://github.com/rahvis/shc/actions/workflows/tests.yml)
+[![Documentation](https://readthedocs.org/projects/shc/badge/?version=latest)](https://shc.readthedocs.io/en/latest/)
 
 A PyTorch implementation of **Sparse Selective Hyper-Connections** for stable and efficient deep residual learning.
 
@@ -22,7 +22,7 @@ SHC replaces traditional residual connections with **sparse mixtures of orthogon
 
 ```bash
 # Clone repository
-git clone https://github.com/your-org/shc.git
+git clone https://github.com/rahvis/shc.git
 cd shc
 
 # Create virtual environment

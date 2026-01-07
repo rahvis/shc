@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sparse-hyper-connections"
-version = "0.1.1"
+version = "0.1.2"
 description = "Sparse Selective Hyper-Connections for stable and efficient deep residual learning"
 readme = "README.md"
 license = {text = "MIT"}
@@ -77,11 +77,11 @@ shc-train = "shc.scripts.train:main"
 shc-eval = "shc.scripts.evaluate:main"
 
 [project.urls]
-Homepage = "https://github.com/your-org/shc"
+Homepage = "https://github.com/rahvis/shc"
 Documentation = "https://shc.readthedocs.io"
-Repository = "https://github.com/your-org/shc"
-Changelog = "https://github.com/your-org/shc/blob/main/CHANGELOG.md"
-"Bug Tracker" = "https://github.com/your-org/shc/issues"
+Repository = "https://github.com/rahvis/shc"
+Changelog = "https://github.com/rahvis/shc/blob/main/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/rahvis/shc/issues"
 
 [tool.setuptools]
 include-package-data = true
